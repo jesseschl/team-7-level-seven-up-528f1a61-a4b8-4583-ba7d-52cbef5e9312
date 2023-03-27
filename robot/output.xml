@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.10 on linux)" generated="20230324 16:25:35.608" rpa="false" schemaversion="3">
-<suite id="s1" name="Robot" source="/home/runner/work/python-robot-reference/python-robot-reference/tests/robot">
-<suite id="s1-s1" name="Start Game" source="/home/runner/work/python-robot-reference/python-robot-reference/tests/robot/start_game.robot">
+<robot generator="Robot 5.0.1 (Python 3.10.10 on linux)" generated="20230327 16:54:15.353" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot" source="/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot">
+<suite id="s1-s1" name="Start Game" source="/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot/start_game.robot">
 <test id="s1-s1-t1" name="Blank character name" line="8">
 <kw name="Start new game with character">
 <arg>${EMPTY}</arg>
@@ -11,40 +11,40 @@
 <arg>0</arg>
 <arg>0</arg>
 <kw name="Initialize Controller" library="GameControllerLibrary">
-<status status="PASS" starttime="20230324 16:25:35.638" endtime="20230324 16:25:35.639"/>
+<status status="PASS" starttime="20230327 16:54:15.381" endtime="20230327 16:54:15.382"/>
 </kw>
 <kw name="Create Character With Name" library="GameControllerLibrary">
 <arg>${providedCharacterName}</arg>
-<status status="PASS" starttime="20230324 16:25:35.639" endtime="20230324 16:25:35.639"/>
+<status status="PASS" starttime="20230327 16:54:15.382" endtime="20230327 16:54:15.382"/>
 </kw>
 <kw name="Character Name Should Be" library="GameControllerLibrary">
 <arg>${characterName}</arg>
-<status status="PASS" starttime="20230324 16:25:35.639" endtime="20230324 16:25:35.639"/>
+<status status="PASS" starttime="20230327 16:54:15.382" endtime="20230327 16:54:15.382"/>
 </kw>
 <kw name="Number Of Map Positions Should Be" library="GameControllerLibrary">
 <arg>${numPositions}</arg>
-<status status="PASS" starttime="20230324 16:25:35.639" endtime="20230324 16:25:35.639"/>
+<status status="PASS" starttime="20230327 16:54:15.382" endtime="20230327 16:54:15.382"/>
 </kw>
 <kw name="Starting X Coordinate Should Be" library="GameControllerLibrary">
 <arg>${startingPositionX}</arg>
-<status status="PASS" starttime="20230324 16:25:35.639" endtime="20230324 16:25:35.640"/>
+<status status="PASS" starttime="20230327 16:54:15.382" endtime="20230327 16:54:15.383"/>
 </kw>
 <kw name="Starting Y Coordinate Should Be" library="GameControllerLibrary">
 <arg>${startingPositionY}</arg>
-<status status="PASS" starttime="20230324 16:25:35.640" endtime="20230324 16:25:35.640"/>
+<status status="PASS" starttime="20230327 16:54:15.383" endtime="20230327 16:54:15.383"/>
 </kw>
 <kw name="Starting Move Count Should Be" library="GameControllerLibrary">
 <arg>${startingMoveCount}</arg>
-<status status="PASS" starttime="20230324 16:25:35.640" endtime="20230324 16:25:35.640"/>
+<status status="PASS" starttime="20230327 16:54:15.383" endtime="20230327 16:54:15.383"/>
 </kw>
-<status status="PASS" starttime="20230324 16:25:35.637" endtime="20230324 16:25:35.640"/>
+<status status="PASS" starttime="20230327 16:54:15.380" endtime="20230327 16:54:15.383"/>
 </kw>
-<status status="PASS" starttime="20230324 16:25:35.637" endtime="20230324 16:25:35.640"/>
+<status status="PASS" starttime="20230327 16:54:15.380" endtime="20230327 16:54:15.383"/>
 </test>
 <doc>Test initialization of game.</doc>
-<status status="PASS" starttime="20230324 16:25:35.629" endtime="20230324 16:25:35.641"/>
+<status status="PASS" starttime="20230327 16:54:15.373" endtime="20230327 16:54:15.384"/>
 </suite>
-<status status="PASS" starttime="20230324 16:25:35.609" endtime="20230324 16:25:35.642"/>
+<status status="PASS" starttime="20230327 16:54:15.354" endtime="20230327 16:54:15.385"/>
 </suite>
 <statistics>
 <total>
