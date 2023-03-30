@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.10 on linux)" generated="20230330 17:26:14.736" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.10.10 on linux)" generated="20230330 17:30:18.466" rpa="false" schemaversion="3">
 <suite id="s1" name="Robot" source="/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot">
 <suite id="s1-s1" name="Move" source="/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot/move.robot">
 <test id="s1-s1-t1" name="Valid Case North" line="7">
@@ -13,36 +13,36 @@
 <arg>2</arg>
 <kw name="Initialize Character Xposition With" library="MoveLibrary">
 <arg>${startingX}</arg>
-<status status="PASS" starttime="20230330 17:26:14.765" endtime="20230330 17:26:14.765"/>
+<status status="PASS" starttime="20230330 17:30:18.504" endtime="20230330 17:30:18.505"/>
 </kw>
 <kw name="Initialize Character Yposition With" library="MoveLibrary">
 <arg>${startingY}</arg>
-<status status="PASS" starttime="20230330 17:26:14.766" endtime="20230330 17:26:14.766"/>
+<status status="PASS" starttime="20230330 17:30:18.505" endtime="20230330 17:30:18.505"/>
 </kw>
 <kw name="Initialize Character MoveCount With" library="MoveLibrary">
 <arg>${startingMoveCount}</arg>
-<status status="PASS" starttime="20230330 17:26:14.766" endtime="20230330 17:26:14.766"/>
+<status status="PASS" starttime="20230330 17:30:18.505" endtime="20230330 17:30:18.505"/>
 </kw>
 <kw name="Move In Direction" library="MoveLibrary">
 <arg>${direction}</arg>
-<msg timestamp="20230330 17:26:14.767" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
-<status status="FAIL" starttime="20230330 17:26:14.766" endtime="20230330 17:26:14.767"/>
+<msg timestamp="20230330 17:30:18.506" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
+<status status="FAIL" starttime="20230330 17:30:18.505" endtime="20230330 17:30:18.506"/>
 </kw>
 <kw name="Character Xposition Should Be" library="MoveLibrary">
 <arg>${endingX}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.767" endtime="20230330 17:26:14.767"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.507" endtime="20230330 17:30:18.507"/>
 </kw>
 <kw name="Character Yposition Should Be" library="MoveLibrary">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.767" endtime="20230330 17:26:14.767"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.507" endtime="20230330 17:30:18.507"/>
 </kw>
 <kw name="Character MoveCount Should Be" library="MoveLibrary">
 <arg>${endingMoveCount}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.767" endtime="20230330 17:26:14.768"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.507" endtime="20230330 17:30:18.507"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.765" endtime="20230330 17:26:14.768"/>
+<status status="FAIL" starttime="20230330 17:30:18.503" endtime="20230330 17:30:18.508"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.764" endtime="20230330 17:26:14.768">AttributeError: 'NoneType' object has no attribute 'position'</status>
+<status status="FAIL" starttime="20230330 17:30:18.503" endtime="20230330 17:30:18.508">AttributeError: 'NoneType' object has no attribute 'position'</status>
 </test>
 <test id="s1-s1-t2" name="Valid Case South" line="8">
 <kw name="Move character">
@@ -55,36 +55,36 @@
 <arg>34</arg>
 <kw name="Initialize Character Xposition With" library="MoveLibrary">
 <arg>${startingX}</arg>
-<status status="PASS" starttime="20230330 17:26:14.769" endtime="20230330 17:26:14.770"/>
+<status status="PASS" starttime="20230330 17:30:18.509" endtime="20230330 17:30:18.510"/>
 </kw>
 <kw name="Initialize Character Yposition With" library="MoveLibrary">
 <arg>${startingY}</arg>
-<status status="PASS" starttime="20230330 17:26:14.770" endtime="20230330 17:26:14.770"/>
+<status status="PASS" starttime="20230330 17:30:18.510" endtime="20230330 17:30:18.510"/>
 </kw>
 <kw name="Initialize Character MoveCount With" library="MoveLibrary">
 <arg>${startingMoveCount}</arg>
-<status status="PASS" starttime="20230330 17:26:14.770" endtime="20230330 17:26:14.770"/>
+<status status="PASS" starttime="20230330 17:30:18.510" endtime="20230330 17:30:18.510"/>
 </kw>
 <kw name="Move In Direction" library="MoveLibrary">
 <arg>${direction}</arg>
-<msg timestamp="20230330 17:26:14.771" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
-<status status="FAIL" starttime="20230330 17:26:14.770" endtime="20230330 17:26:14.771"/>
+<msg timestamp="20230330 17:30:18.511" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
+<status status="FAIL" starttime="20230330 17:30:18.510" endtime="20230330 17:30:18.511"/>
 </kw>
 <kw name="Character Xposition Should Be" library="MoveLibrary">
 <arg>${endingX}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.771" endtime="20230330 17:26:14.771"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.511" endtime="20230330 17:30:18.511"/>
 </kw>
 <kw name="Character Yposition Should Be" library="MoveLibrary">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.771" endtime="20230330 17:26:14.771"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.511" endtime="20230330 17:30:18.511"/>
 </kw>
 <kw name="Character MoveCount Should Be" library="MoveLibrary">
 <arg>${endingMoveCount}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.771" endtime="20230330 17:26:14.771"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.512" endtime="20230330 17:30:18.512"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.769" endtime="20230330 17:26:14.772"/>
+<status status="FAIL" starttime="20230330 17:30:18.509" endtime="20230330 17:30:18.512"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.769" endtime="20230330 17:26:14.772">AttributeError: 'NoneType' object has no attribute 'position'</status>
+<status status="FAIL" starttime="20230330 17:30:18.508" endtime="20230330 17:30:18.513">AttributeError: 'NoneType' object has no attribute 'position'</status>
 </test>
 <test id="s1-s1-t3" name="Valid Case East" line="9">
 <kw name="Move character">
@@ -97,36 +97,36 @@
 <arg>2</arg>
 <kw name="Initialize Character Xposition With" library="MoveLibrary">
 <arg>${startingX}</arg>
-<status status="PASS" starttime="20230330 17:26:14.773" endtime="20230330 17:26:14.773"/>
+<status status="PASS" starttime="20230330 17:30:18.514" endtime="20230330 17:30:18.514"/>
 </kw>
 <kw name="Initialize Character Yposition With" library="MoveLibrary">
 <arg>${startingY}</arg>
-<status status="PASS" starttime="20230330 17:26:14.773" endtime="20230330 17:26:14.773"/>
+<status status="PASS" starttime="20230330 17:30:18.514" endtime="20230330 17:30:18.514"/>
 </kw>
 <kw name="Initialize Character MoveCount With" library="MoveLibrary">
 <arg>${startingMoveCount}</arg>
-<status status="PASS" starttime="20230330 17:26:14.773" endtime="20230330 17:26:14.774"/>
+<status status="PASS" starttime="20230330 17:30:18.515" endtime="20230330 17:30:18.515"/>
 </kw>
 <kw name="Move In Direction" library="MoveLibrary">
 <arg>${direction}</arg>
-<msg timestamp="20230330 17:26:14.774" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
-<status status="FAIL" starttime="20230330 17:26:14.774" endtime="20230330 17:26:14.774"/>
+<msg timestamp="20230330 17:30:18.515" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
+<status status="FAIL" starttime="20230330 17:30:18.515" endtime="20230330 17:30:18.516"/>
 </kw>
 <kw name="Character Xposition Should Be" library="MoveLibrary">
 <arg>${endingX}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.774" endtime="20230330 17:26:14.774"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.516" endtime="20230330 17:30:18.516"/>
 </kw>
 <kw name="Character Yposition Should Be" library="MoveLibrary">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.775" endtime="20230330 17:26:14.775"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.516" endtime="20230330 17:30:18.516"/>
 </kw>
 <kw name="Character MoveCount Should Be" library="MoveLibrary">
 <arg>${endingMoveCount}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.775" endtime="20230330 17:26:14.775"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.516" endtime="20230330 17:30:18.516"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.773" endtime="20230330 17:26:14.775"/>
+<status status="FAIL" starttime="20230330 17:30:18.513" endtime="20230330 17:30:18.517"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.772" endtime="20230330 17:26:14.775">AttributeError: 'NoneType' object has no attribute 'position'</status>
+<status status="FAIL" starttime="20230330 17:30:18.513" endtime="20230330 17:30:18.517">AttributeError: 'NoneType' object has no attribute 'position'</status>
 </test>
 <test id="s1-s1-t4" name="Valid Case West" line="10">
 <kw name="Move character">
@@ -139,36 +139,36 @@
 <arg>23</arg>
 <kw name="Initialize Character Xposition With" library="MoveLibrary">
 <arg>${startingX}</arg>
-<status status="PASS" starttime="20230330 17:26:14.776" endtime="20230330 17:26:14.777"/>
+<status status="PASS" starttime="20230330 17:30:18.518" endtime="20230330 17:30:18.518"/>
 </kw>
 <kw name="Initialize Character Yposition With" library="MoveLibrary">
 <arg>${startingY}</arg>
-<status status="PASS" starttime="20230330 17:26:14.777" endtime="20230330 17:26:14.777"/>
+<status status="PASS" starttime="20230330 17:30:18.518" endtime="20230330 17:30:18.519"/>
 </kw>
 <kw name="Initialize Character MoveCount With" library="MoveLibrary">
 <arg>${startingMoveCount}</arg>
-<status status="PASS" starttime="20230330 17:26:14.777" endtime="20230330 17:26:14.777"/>
+<status status="PASS" starttime="20230330 17:30:18.519" endtime="20230330 17:30:18.519"/>
 </kw>
 <kw name="Move In Direction" library="MoveLibrary">
 <arg>${direction}</arg>
-<msg timestamp="20230330 17:26:14.777" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
-<status status="FAIL" starttime="20230330 17:26:14.777" endtime="20230330 17:26:14.778"/>
+<msg timestamp="20230330 17:30:18.519" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
+<status status="FAIL" starttime="20230330 17:30:18.519" endtime="20230330 17:30:18.520"/>
 </kw>
 <kw name="Character Xposition Should Be" library="MoveLibrary">
 <arg>${endingX}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.778" endtime="20230330 17:26:14.778"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.520" endtime="20230330 17:30:18.520"/>
 </kw>
 <kw name="Character Yposition Should Be" library="MoveLibrary">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.778" endtime="20230330 17:26:14.778"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.520" endtime="20230330 17:30:18.520"/>
 </kw>
 <kw name="Character MoveCount Should Be" library="MoveLibrary">
 <arg>${endingMoveCount}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.778" endtime="20230330 17:26:14.778"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.520" endtime="20230330 17:30:18.520"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.776" endtime="20230330 17:26:14.778"/>
+<status status="FAIL" starttime="20230330 17:30:18.518" endtime="20230330 17:30:18.520"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.776" endtime="20230330 17:26:14.779">AttributeError: 'NoneType' object has no attribute 'position'</status>
+<status status="FAIL" starttime="20230330 17:30:18.517" endtime="20230330 17:30:18.521">AttributeError: 'NoneType' object has no attribute 'position'</status>
 </test>
 <test id="s1-s1-t5" name="Valid Edge Case North" line="11">
 <kw name="Move character">
@@ -181,36 +181,36 @@
 <arg>2</arg>
 <kw name="Initialize Character Xposition With" library="MoveLibrary">
 <arg>${startingX}</arg>
-<status status="PASS" starttime="20230330 17:26:14.780" endtime="20230330 17:26:14.780"/>
+<status status="PASS" starttime="20230330 17:30:18.522" endtime="20230330 17:30:18.523"/>
 </kw>
 <kw name="Initialize Character Yposition With" library="MoveLibrary">
 <arg>${startingY}</arg>
-<status status="PASS" starttime="20230330 17:26:14.780" endtime="20230330 17:26:14.780"/>
+<status status="PASS" starttime="20230330 17:30:18.523" endtime="20230330 17:30:18.523"/>
 </kw>
 <kw name="Initialize Character MoveCount With" library="MoveLibrary">
 <arg>${startingMoveCount}</arg>
-<status status="PASS" starttime="20230330 17:26:14.780" endtime="20230330 17:26:14.781"/>
+<status status="PASS" starttime="20230330 17:30:18.523" endtime="20230330 17:30:18.523"/>
 </kw>
 <kw name="Move In Direction" library="MoveLibrary">
 <arg>${direction}</arg>
-<msg timestamp="20230330 17:26:14.781" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
-<status status="FAIL" starttime="20230330 17:26:14.781" endtime="20230330 17:26:14.781"/>
+<msg timestamp="20230330 17:30:18.524" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
+<status status="FAIL" starttime="20230330 17:30:18.523" endtime="20230330 17:30:18.524"/>
 </kw>
 <kw name="Character Xposition Should Be" library="MoveLibrary">
 <arg>${endingX}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.781" endtime="20230330 17:26:14.781"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.524" endtime="20230330 17:30:18.524"/>
 </kw>
 <kw name="Character Yposition Should Be" library="MoveLibrary">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.782" endtime="20230330 17:26:14.782"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.524" endtime="20230330 17:30:18.525"/>
 </kw>
 <kw name="Character MoveCount Should Be" library="MoveLibrary">
 <arg>${endingMoveCount}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.782" endtime="20230330 17:26:14.782"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.525" endtime="20230330 17:30:18.525"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.779" endtime="20230330 17:26:14.782"/>
+<status status="FAIL" starttime="20230330 17:30:18.522" endtime="20230330 17:30:18.525"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.779" endtime="20230330 17:26:14.782">AttributeError: 'NoneType' object has no attribute 'position'</status>
+<status status="FAIL" starttime="20230330 17:30:18.521" endtime="20230330 17:30:18.525">AttributeError: 'NoneType' object has no attribute 'position'</status>
 </test>
 <test id="s1-s1-t6" name="Valid Edge Case South" line="12">
 <kw name="Move character">
@@ -223,36 +223,36 @@
 <arg>34</arg>
 <kw name="Initialize Character Xposition With" library="MoveLibrary">
 <arg>${startingX}</arg>
-<status status="PASS" starttime="20230330 17:26:14.783" endtime="20230330 17:26:14.784"/>
+<status status="PASS" starttime="20230330 17:30:18.527" endtime="20230330 17:30:18.527"/>
 </kw>
 <kw name="Initialize Character Yposition With" library="MoveLibrary">
 <arg>${startingY}</arg>
-<status status="PASS" starttime="20230330 17:26:14.784" endtime="20230330 17:26:14.784"/>
+<status status="PASS" starttime="20230330 17:30:18.527" endtime="20230330 17:30:18.528"/>
 </kw>
 <kw name="Initialize Character MoveCount With" library="MoveLibrary">
 <arg>${startingMoveCount}</arg>
-<status status="PASS" starttime="20230330 17:26:14.784" endtime="20230330 17:26:14.784"/>
+<status status="PASS" starttime="20230330 17:30:18.528" endtime="20230330 17:30:18.528"/>
 </kw>
 <kw name="Move In Direction" library="MoveLibrary">
 <arg>${direction}</arg>
-<msg timestamp="20230330 17:26:14.784" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
-<status status="FAIL" starttime="20230330 17:26:14.784" endtime="20230330 17:26:14.785"/>
+<msg timestamp="20230330 17:30:18.528" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
+<status status="FAIL" starttime="20230330 17:30:18.528" endtime="20230330 17:30:18.529"/>
 </kw>
 <kw name="Character Xposition Should Be" library="MoveLibrary">
 <arg>${endingX}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.785" endtime="20230330 17:26:14.785"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.529" endtime="20230330 17:30:18.529"/>
 </kw>
 <kw name="Character Yposition Should Be" library="MoveLibrary">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.785" endtime="20230330 17:26:14.785"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.529" endtime="20230330 17:30:18.529"/>
 </kw>
 <kw name="Character MoveCount Should Be" library="MoveLibrary">
 <arg>${endingMoveCount}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.785" endtime="20230330 17:26:14.785"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.529" endtime="20230330 17:30:18.529"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.783" endtime="20230330 17:26:14.785"/>
+<status status="FAIL" starttime="20230330 17:30:18.526" endtime="20230330 17:30:18.530"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.783" endtime="20230330 17:26:14.786">AttributeError: 'NoneType' object has no attribute 'position'</status>
+<status status="FAIL" starttime="20230330 17:30:18.526" endtime="20230330 17:30:18.530">AttributeError: 'NoneType' object has no attribute 'position'</status>
 </test>
 <test id="s1-s1-t7" name="Valid Edge Case East" line="13">
 <kw name="Move character">
@@ -265,36 +265,36 @@
 <arg>2</arg>
 <kw name="Initialize Character Xposition With" library="MoveLibrary">
 <arg>${startingX}</arg>
-<status status="PASS" starttime="20230330 17:26:14.787" endtime="20230330 17:26:14.787"/>
+<status status="PASS" starttime="20230330 17:30:18.531" endtime="20230330 17:30:18.532"/>
 </kw>
 <kw name="Initialize Character Yposition With" library="MoveLibrary">
 <arg>${startingY}</arg>
-<status status="PASS" starttime="20230330 17:26:14.787" endtime="20230330 17:26:14.787"/>
+<status status="PASS" starttime="20230330 17:30:18.532" endtime="20230330 17:30:18.532"/>
 </kw>
 <kw name="Initialize Character MoveCount With" library="MoveLibrary">
 <arg>${startingMoveCount}</arg>
-<status status="PASS" starttime="20230330 17:26:14.787" endtime="20230330 17:26:14.787"/>
+<status status="PASS" starttime="20230330 17:30:18.532" endtime="20230330 17:30:18.532"/>
 </kw>
 <kw name="Move In Direction" library="MoveLibrary">
 <arg>${direction}</arg>
-<msg timestamp="20230330 17:26:14.788" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
-<status status="FAIL" starttime="20230330 17:26:14.787" endtime="20230330 17:26:14.788"/>
+<msg timestamp="20230330 17:30:18.533" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
+<status status="FAIL" starttime="20230330 17:30:18.532" endtime="20230330 17:30:18.533"/>
 </kw>
 <kw name="Character Xposition Should Be" library="MoveLibrary">
 <arg>${endingX}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.788" endtime="20230330 17:26:14.788"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.533" endtime="20230330 17:30:18.533"/>
 </kw>
 <kw name="Character Yposition Should Be" library="MoveLibrary">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.788" endtime="20230330 17:26:14.788"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.533" endtime="20230330 17:30:18.533"/>
 </kw>
 <kw name="Character MoveCount Should Be" library="MoveLibrary">
 <arg>${endingMoveCount}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.788" endtime="20230330 17:26:14.788"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.534" endtime="20230330 17:30:18.534"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.786" endtime="20230330 17:26:14.789"/>
+<status status="FAIL" starttime="20230330 17:30:18.531" endtime="20230330 17:30:18.534"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.786" endtime="20230330 17:26:14.789">AttributeError: 'NoneType' object has no attribute 'position'</status>
+<status status="FAIL" starttime="20230330 17:30:18.530" endtime="20230330 17:30:18.534">AttributeError: 'NoneType' object has no attribute 'position'</status>
 </test>
 <test id="s1-s1-t8" name="Valid Edge Case West" line="14">
 <kw name="Move character">
@@ -307,36 +307,36 @@
 <arg>23</arg>
 <kw name="Initialize Character Xposition With" library="MoveLibrary">
 <arg>${startingX}</arg>
-<status status="PASS" starttime="20230330 17:26:14.790" endtime="20230330 17:26:14.790"/>
+<status status="PASS" starttime="20230330 17:30:18.536" endtime="20230330 17:30:18.536"/>
 </kw>
 <kw name="Initialize Character Yposition With" library="MoveLibrary">
 <arg>${startingY}</arg>
-<status status="PASS" starttime="20230330 17:26:14.790" endtime="20230330 17:26:14.791"/>
+<status status="PASS" starttime="20230330 17:30:18.536" endtime="20230330 17:30:18.536"/>
 </kw>
 <kw name="Initialize Character MoveCount With" library="MoveLibrary">
 <arg>${startingMoveCount}</arg>
-<status status="PASS" starttime="20230330 17:26:14.791" endtime="20230330 17:26:14.791"/>
+<status status="PASS" starttime="20230330 17:30:18.537" endtime="20230330 17:30:18.537"/>
 </kw>
 <kw name="Move In Direction" library="MoveLibrary">
 <arg>${direction}</arg>
-<msg timestamp="20230330 17:26:14.791" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
-<status status="FAIL" starttime="20230330 17:26:14.791" endtime="20230330 17:26:14.791"/>
+<msg timestamp="20230330 17:30:18.537" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
+<status status="FAIL" starttime="20230330 17:30:18.537" endtime="20230330 17:30:18.537"/>
 </kw>
 <kw name="Character Xposition Should Be" library="MoveLibrary">
 <arg>${endingX}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.792" endtime="20230330 17:26:14.792"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.538" endtime="20230330 17:30:18.538"/>
 </kw>
 <kw name="Character Yposition Should Be" library="MoveLibrary">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.792" endtime="20230330 17:26:14.792"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.538" endtime="20230330 17:30:18.538"/>
 </kw>
 <kw name="Character MoveCount Should Be" library="MoveLibrary">
 <arg>${endingMoveCount}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.792" endtime="20230330 17:26:14.792"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.538" endtime="20230330 17:30:18.538"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.790" endtime="20230330 17:26:14.792"/>
+<status status="FAIL" starttime="20230330 17:30:18.535" endtime="20230330 17:30:18.539"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.789" endtime="20230330 17:26:14.793">AttributeError: 'NoneType' object has no attribute 'position'</status>
+<status status="FAIL" starttime="20230330 17:30:18.535" endtime="20230330 17:30:18.539">AttributeError: 'NoneType' object has no attribute 'position'</status>
 </test>
 <test id="s1-s1-t9" name="Invalid Edge Case North" line="15">
 <kw name="Move character">
@@ -349,36 +349,36 @@
 <arg>6</arg>
 <kw name="Initialize Character Xposition With" library="MoveLibrary">
 <arg>${startingX}</arg>
-<status status="PASS" starttime="20230330 17:26:14.794" endtime="20230330 17:26:14.794"/>
+<status status="PASS" starttime="20230330 17:30:18.540" endtime="20230330 17:30:18.541"/>
 </kw>
 <kw name="Initialize Character Yposition With" library="MoveLibrary">
 <arg>${startingY}</arg>
-<status status="PASS" starttime="20230330 17:26:14.794" endtime="20230330 17:26:14.794"/>
+<status status="PASS" starttime="20230330 17:30:18.541" endtime="20230330 17:30:18.541"/>
 </kw>
 <kw name="Initialize Character MoveCount With" library="MoveLibrary">
 <arg>${startingMoveCount}</arg>
-<status status="PASS" starttime="20230330 17:26:14.794" endtime="20230330 17:26:14.794"/>
+<status status="PASS" starttime="20230330 17:30:18.541" endtime="20230330 17:30:18.542"/>
 </kw>
 <kw name="Move In Direction" library="MoveLibrary">
 <arg>${direction}</arg>
-<msg timestamp="20230330 17:26:14.795" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
-<status status="FAIL" starttime="20230330 17:26:14.794" endtime="20230330 17:26:14.795"/>
+<msg timestamp="20230330 17:30:18.542" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
+<status status="FAIL" starttime="20230330 17:30:18.542" endtime="20230330 17:30:18.542"/>
 </kw>
 <kw name="Character Xposition Should Be" library="MoveLibrary">
 <arg>${endingX}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.795" endtime="20230330 17:26:14.795"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.543" endtime="20230330 17:30:18.543"/>
 </kw>
 <kw name="Character Yposition Should Be" library="MoveLibrary">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.795" endtime="20230330 17:26:14.795"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.543" endtime="20230330 17:30:18.543"/>
 </kw>
 <kw name="Character MoveCount Should Be" library="MoveLibrary">
 <arg>${endingMoveCount}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.795" endtime="20230330 17:26:14.795"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.543" endtime="20230330 17:30:18.543"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.793" endtime="20230330 17:26:14.796"/>
+<status status="FAIL" starttime="20230330 17:30:18.540" endtime="20230330 17:30:18.543"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.793" endtime="20230330 17:26:14.796">AttributeError: 'NoneType' object has no attribute 'position'</status>
+<status status="FAIL" starttime="20230330 17:30:18.539" endtime="20230330 17:30:18.544">AttributeError: 'NoneType' object has no attribute 'position'</status>
 </test>
 <test id="s1-s1-t10" name="Invalid Edge Case South" line="16">
 <kw name="Move character">
@@ -391,36 +391,36 @@
 <arg>12</arg>
 <kw name="Initialize Character Xposition With" library="MoveLibrary">
 <arg>${startingX}</arg>
-<status status="PASS" starttime="20230330 17:26:14.797" endtime="20230330 17:26:14.797"/>
+<status status="PASS" starttime="20230330 17:30:18.545" endtime="20230330 17:30:18.546"/>
 </kw>
 <kw name="Initialize Character Yposition With" library="MoveLibrary">
 <arg>${startingY}</arg>
-<status status="PASS" starttime="20230330 17:26:14.797" endtime="20230330 17:26:14.797"/>
+<status status="PASS" starttime="20230330 17:30:18.546" endtime="20230330 17:30:18.546"/>
 </kw>
 <kw name="Initialize Character MoveCount With" library="MoveLibrary">
 <arg>${startingMoveCount}</arg>
-<status status="PASS" starttime="20230330 17:26:14.797" endtime="20230330 17:26:14.798"/>
+<status status="PASS" starttime="20230330 17:30:18.546" endtime="20230330 17:30:18.546"/>
 </kw>
 <kw name="Move In Direction" library="MoveLibrary">
 <arg>${direction}</arg>
-<msg timestamp="20230330 17:26:14.798" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
-<status status="FAIL" starttime="20230330 17:26:14.798" endtime="20230330 17:26:14.798"/>
+<msg timestamp="20230330 17:30:18.547" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
+<status status="FAIL" starttime="20230330 17:30:18.546" endtime="20230330 17:30:18.547"/>
 </kw>
 <kw name="Character Xposition Should Be" library="MoveLibrary">
 <arg>${endingX}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.798" endtime="20230330 17:26:14.798"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.547" endtime="20230330 17:30:18.547"/>
 </kw>
 <kw name="Character Yposition Should Be" library="MoveLibrary">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.798" endtime="20230330 17:26:14.799"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.547" endtime="20230330 17:30:18.547"/>
 </kw>
 <kw name="Character MoveCount Should Be" library="MoveLibrary">
 <arg>${endingMoveCount}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.799" endtime="20230330 17:26:14.799"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.548" endtime="20230330 17:30:18.548"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.796" endtime="20230330 17:26:14.799"/>
+<status status="FAIL" starttime="20230330 17:30:18.545" endtime="20230330 17:30:18.548"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.796" endtime="20230330 17:26:14.799">AttributeError: 'NoneType' object has no attribute 'position'</status>
+<status status="FAIL" starttime="20230330 17:30:18.544" endtime="20230330 17:30:18.548">AttributeError: 'NoneType' object has no attribute 'position'</status>
 </test>
 <test id="s1-s1-t11" name="Invalid Edge Case East" line="17">
 <kw name="Move character">
@@ -433,36 +433,36 @@
 <arg>57</arg>
 <kw name="Initialize Character Xposition With" library="MoveLibrary">
 <arg>${startingX}</arg>
-<status status="PASS" starttime="20230330 17:26:14.800" endtime="20230330 17:26:14.801"/>
+<status status="PASS" starttime="20230330 17:30:18.550" endtime="20230330 17:30:18.550"/>
 </kw>
 <kw name="Initialize Character Yposition With" library="MoveLibrary">
 <arg>${startingY}</arg>
-<status status="PASS" starttime="20230330 17:26:14.801" endtime="20230330 17:26:14.801"/>
+<status status="PASS" starttime="20230330 17:30:18.550" endtime="20230330 17:30:18.550"/>
 </kw>
 <kw name="Initialize Character MoveCount With" library="MoveLibrary">
 <arg>${startingMoveCount}</arg>
-<status status="PASS" starttime="20230330 17:26:14.801" endtime="20230330 17:26:14.801"/>
+<status status="PASS" starttime="20230330 17:30:18.550" endtime="20230330 17:30:18.550"/>
 </kw>
 <kw name="Move In Direction" library="MoveLibrary">
 <arg>${direction}</arg>
-<msg timestamp="20230330 17:26:14.802" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
-<status status="FAIL" starttime="20230330 17:26:14.801" endtime="20230330 17:26:14.802"/>
+<msg timestamp="20230330 17:30:18.551" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
+<status status="FAIL" starttime="20230330 17:30:18.551" endtime="20230330 17:30:18.551"/>
 </kw>
 <kw name="Character Xposition Should Be" library="MoveLibrary">
 <arg>${endingX}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.802" endtime="20230330 17:26:14.802"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.551" endtime="20230330 17:30:18.551"/>
 </kw>
 <kw name="Character Yposition Should Be" library="MoveLibrary">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.802" endtime="20230330 17:26:14.802"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.552" endtime="20230330 17:30:18.552"/>
 </kw>
 <kw name="Character MoveCount Should Be" library="MoveLibrary">
 <arg>${endingMoveCount}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.802" endtime="20230330 17:26:14.802"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.552" endtime="20230330 17:30:18.552"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.800" endtime="20230330 17:26:14.803"/>
+<status status="FAIL" starttime="20230330 17:30:18.549" endtime="20230330 17:30:18.552"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.800" endtime="20230330 17:26:14.803">AttributeError: 'NoneType' object has no attribute 'position'</status>
+<status status="FAIL" starttime="20230330 17:30:18.549" endtime="20230330 17:30:18.552">AttributeError: 'NoneType' object has no attribute 'position'</status>
 </test>
 <test id="s1-s1-t12" name="Invalid Edge Case West" line="18">
 <kw name="Move character">
@@ -475,39 +475,39 @@
 <arg>15</arg>
 <kw name="Initialize Character Xposition With" library="MoveLibrary">
 <arg>${startingX}</arg>
-<status status="PASS" starttime="20230330 17:26:14.804" endtime="20230330 17:26:14.804"/>
+<status status="PASS" starttime="20230330 17:30:18.554" endtime="20230330 17:30:18.554"/>
 </kw>
 <kw name="Initialize Character Yposition With" library="MoveLibrary">
 <arg>${startingY}</arg>
-<status status="PASS" starttime="20230330 17:26:14.804" endtime="20230330 17:26:14.804"/>
+<status status="PASS" starttime="20230330 17:30:18.554" endtime="20230330 17:30:18.554"/>
 </kw>
 <kw name="Initialize Character MoveCount With" library="MoveLibrary">
 <arg>${startingMoveCount}</arg>
-<status status="PASS" starttime="20230330 17:26:14.804" endtime="20230330 17:26:14.805"/>
+<status status="PASS" starttime="20230330 17:30:18.554" endtime="20230330 17:30:18.554"/>
 </kw>
 <kw name="Move In Direction" library="MoveLibrary">
 <arg>${direction}</arg>
-<msg timestamp="20230330 17:26:14.805" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
-<status status="FAIL" starttime="20230330 17:26:14.805" endtime="20230330 17:26:14.805"/>
+<msg timestamp="20230330 17:30:18.555" level="FAIL">AttributeError: 'NoneType' object has no attribute 'position'</msg>
+<status status="FAIL" starttime="20230330 17:30:18.554" endtime="20230330 17:30:18.555"/>
 </kw>
 <kw name="Character Xposition Should Be" library="MoveLibrary">
 <arg>${endingX}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.805" endtime="20230330 17:26:14.805"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.556" endtime="20230330 17:30:18.556"/>
 </kw>
 <kw name="Character Yposition Should Be" library="MoveLibrary">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.805" endtime="20230330 17:26:14.805"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.556" endtime="20230330 17:30:18.556"/>
 </kw>
 <kw name="Character MoveCount Should Be" library="MoveLibrary">
 <arg>${endingMoveCount}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.806" endtime="20230330 17:26:14.806"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.556" endtime="20230330 17:30:18.556"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.803" endtime="20230330 17:26:14.806"/>
+<status status="FAIL" starttime="20230330 17:30:18.553" endtime="20230330 17:30:18.556"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.803" endtime="20230330 17:26:14.806">AttributeError: 'NoneType' object has no attribute 'position'</status>
+<status status="FAIL" starttime="20230330 17:30:18.553" endtime="20230330 17:30:18.557">AttributeError: 'NoneType' object has no attribute 'position'</status>
 </test>
 <doc>I want to move my character. If they attempt to move past a boundary, the move results in no change in position.</doc>
-<status status="FAIL" starttime="20230330 17:26:14.757" endtime="20230330 17:26:14.807"/>
+<status status="FAIL" starttime="20230330 17:30:18.494" endtime="20230330 17:30:18.557"/>
 </suite>
 <suite id="s1-s2" name="Start Game" source="/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot/start_game.robot">
 <test id="s1-s2-t1" name="Blank character name" line="8">
@@ -519,36 +519,36 @@
 <arg>0</arg>
 <arg>0</arg>
 <kw name="Initialize Controller" library="GameControllerLibrary">
-<status status="PASS" starttime="20230330 17:26:14.813" endtime="20230330 17:26:14.813"/>
+<status status="PASS" starttime="20230330 17:30:18.567" endtime="20230330 17:30:18.567"/>
 </kw>
 <kw name="Create Character With Name" library="GameControllerLibrary">
 <arg>${providedCharacterName}</arg>
-<status status="PASS" starttime="20230330 17:26:14.813" endtime="20230330 17:26:14.813"/>
+<status status="PASS" starttime="20230330 17:30:18.567" endtime="20230330 17:30:18.568"/>
 </kw>
 <kw name="Character Name Should Be" library="GameControllerLibrary">
 <arg>${characterName}</arg>
-<status status="PASS" starttime="20230330 17:26:14.813" endtime="20230330 17:26:14.813"/>
+<status status="PASS" starttime="20230330 17:30:18.568" endtime="20230330 17:30:18.568"/>
 </kw>
 <kw name="Number Of Map Positions Should Be" library="GameControllerLibrary">
 <arg>${numPositions}</arg>
-<msg timestamp="20230330 17:26:14.814" level="FAIL">Not implemented</msg>
-<status status="FAIL" starttime="20230330 17:26:14.813" endtime="20230330 17:26:14.814"/>
+<msg timestamp="20230330 17:30:18.568" level="FAIL">Not implemented</msg>
+<status status="FAIL" starttime="20230330 17:30:18.568" endtime="20230330 17:30:18.569"/>
 </kw>
 <kw name="Starting X Coordinate Should Be" library="GameControllerLibrary">
 <arg>${startingPositionX}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.814" endtime="20230330 17:26:14.814"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.569" endtime="20230330 17:30:18.569"/>
 </kw>
 <kw name="Starting Y Coordinate Should Be" library="GameControllerLibrary">
 <arg>${startingPositionY}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.814" endtime="20230330 17:26:14.814"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.569" endtime="20230330 17:30:18.569"/>
 </kw>
 <kw name="Starting Move Count Should Be" library="GameControllerLibrary">
 <arg>${startingMoveCount}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.814" endtime="20230330 17:26:14.814"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.569" endtime="20230330 17:30:18.569"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.812" endtime="20230330 17:26:14.815"/>
+<status status="FAIL" starttime="20230330 17:30:18.566" endtime="20230330 17:30:18.570"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.811" endtime="20230330 17:26:14.815">Not implemented</status>
+<status status="FAIL" starttime="20230330 17:30:18.566" endtime="20230330 17:30:18.570">Not implemented</status>
 </test>
 <test id="s1-s2-t2" name="Valid character name" line="9">
 <kw name="Start new game with character">
@@ -559,41 +559,41 @@
 <arg>0</arg>
 <arg>0</arg>
 <kw name="Initialize Controller" library="GameControllerLibrary">
-<status status="PASS" starttime="20230330 17:26:14.816" endtime="20230330 17:26:14.816"/>
+<status status="PASS" starttime="20230330 17:30:18.572" endtime="20230330 17:30:18.572"/>
 </kw>
 <kw name="Create Character With Name" library="GameControllerLibrary">
 <arg>${providedCharacterName}</arg>
-<status status="PASS" starttime="20230330 17:26:14.816" endtime="20230330 17:26:14.817"/>
+<status status="PASS" starttime="20230330 17:30:18.572" endtime="20230330 17:30:18.572"/>
 </kw>
 <kw name="Character Name Should Be" library="GameControllerLibrary">
 <arg>${characterName}</arg>
-<status status="PASS" starttime="20230330 17:26:14.817" endtime="20230330 17:26:14.817"/>
+<status status="PASS" starttime="20230330 17:30:18.572" endtime="20230330 17:30:18.572"/>
 </kw>
 <kw name="Number Of Map Positions Should Be" library="GameControllerLibrary">
 <arg>${numPositions}</arg>
-<msg timestamp="20230330 17:26:14.817" level="FAIL">Not implemented</msg>
-<status status="FAIL" starttime="20230330 17:26:14.817" endtime="20230330 17:26:14.817"/>
+<msg timestamp="20230330 17:30:18.573" level="FAIL">Not implemented</msg>
+<status status="FAIL" starttime="20230330 17:30:18.572" endtime="20230330 17:30:18.573"/>
 </kw>
 <kw name="Starting X Coordinate Should Be" library="GameControllerLibrary">
 <arg>${startingPositionX}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.818" endtime="20230330 17:26:14.818"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.573" endtime="20230330 17:30:18.573"/>
 </kw>
 <kw name="Starting Y Coordinate Should Be" library="GameControllerLibrary">
 <arg>${startingPositionY}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.818" endtime="20230330 17:26:14.818"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.573" endtime="20230330 17:30:18.573"/>
 </kw>
 <kw name="Starting Move Count Should Be" library="GameControllerLibrary">
 <arg>${startingMoveCount}</arg>
-<status status="NOT RUN" starttime="20230330 17:26:14.818" endtime="20230330 17:26:14.818"/>
+<status status="NOT RUN" starttime="20230330 17:30:18.573" endtime="20230330 17:30:18.574"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.816" endtime="20230330 17:26:14.818"/>
+<status status="FAIL" starttime="20230330 17:30:18.571" endtime="20230330 17:30:18.574"/>
 </kw>
-<status status="FAIL" starttime="20230330 17:26:14.815" endtime="20230330 17:26:14.818">Not implemented</status>
+<status status="FAIL" starttime="20230330 17:30:18.571" endtime="20230330 17:30:18.574">Not implemented</status>
 </test>
 <doc>Test initialization of game.</doc>
-<status status="FAIL" starttime="20230330 17:26:14.808" endtime="20230330 17:26:14.819"/>
+<status status="FAIL" starttime="20230330 17:30:18.558" endtime="20230330 17:30:18.575"/>
 </suite>
-<status status="FAIL" starttime="20230330 17:26:14.737" endtime="20230330 17:26:14.820"/>
+<status status="FAIL" starttime="20230330 17:30:18.467" endtime="20230330 17:30:18.576"/>
 </suite>
 <statistics>
 <total>
