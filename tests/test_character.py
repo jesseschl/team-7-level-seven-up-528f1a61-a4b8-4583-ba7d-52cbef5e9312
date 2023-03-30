@@ -1,6 +1,6 @@
 from unittest import TestCase
-from levelup.character import Character, InvalidMoveException
-from levelup.map import GameMap, Direction
+from levelup.character import Character, InvalidMoveException, DEFAULT_CHARACTER_NAME
+from levelup.map import GameMap, FakeGameMap, Direction
 from levelup.position import Position
 
 
@@ -13,10 +13,8 @@ class TestCharacter(TestCase):
         self.assertEqual(testobj.position, expected_position)
 
     def test_init(self):
-        expected_name = "Character"
+        expected_name = DEFAULT_CHARACTER_NAME
         testobj = Character()
         self.assertEqual(testobj.name, expected_name)
         expected_position = None
         self.assertEqual(testobj.position, expected_position)
-
-    
