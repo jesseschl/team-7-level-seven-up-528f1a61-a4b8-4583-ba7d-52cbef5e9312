@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.10 on linux)" generated="20230329 22:32:51.684" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.10.10 on linux)" generated="20230330 00:13:16.793" rpa="false" schemaversion="3">
 <suite id="s1" name="Robot" source="/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot">
-<suite id="s1-s1" name="Start Game" source="/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot/start_game.robot">
-<test id="s1-s1-t1" name="Blank character name" line="8">
+<suite id="s1-s1" name="Move" source="/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot/move.robot">
+<test id="s1-s1-t1" name="Move in middle of board 4" line="7">
+<kw name="Move character">
+<arg>5</arg>
+<arg>NORTH</arg>
+<arg>4</arg>
+<arg>4</arg>
+<msg timestamp="20230330 00:13:16.824" level="FAIL">Keyword 'Move character' expected 0 arguments, got 4.</msg>
+<status status="FAIL" starttime="20230330 00:13:16.823" endtime="20230330 00:13:16.824"/>
+</kw>
+<status status="FAIL" starttime="20230330 00:13:16.823" endtime="20230330 00:13:16.824">Keyword 'Move character' expected 0 arguments, got 4.</status>
+</test>
+<test id="s1-s1-t2" name="Move on edge of board" line="8">
+<kw name="Move character">
+<arg>0</arg>
+<arg>0</arg>
+<arg>WEST</arg>
+<arg>0</arg>
+<arg>0</arg>
+<msg timestamp="20230330 00:13:16.825" level="FAIL">Keyword 'Move character' expected 0 arguments, got 5.</msg>
+<status status="FAIL" starttime="20230330 00:13:16.825" endtime="20230330 00:13:16.825"/>
+</kw>
+<status status="FAIL" starttime="20230330 00:13:16.824" endtime="20230330 00:13:16.825">Keyword 'Move character' expected 0 arguments, got 5.</status>
+</test>
+<doc>I want to move my character. If they attempt to move past a boundary, the move results in no change in position.</doc>
+<status status="FAIL" starttime="20230330 00:13:16.816" endtime="20230330 00:13:16.826"/>
+</suite>
+<suite id="s1-s2" name="Start Game" source="/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot/start_game.robot">
+<test id="s1-s2-t1" name="Blank character name" line="8">
 <kw name="Start new game with character">
 <arg>${EMPTY}</arg>
 <arg>Character</arg>
@@ -10,53 +37,87 @@
 <arg>0</arg>
 <arg>0</arg>
 <arg>0</arg>
-<kw name="Initialize Controller" library="GameControllerLibrary">
-<status status="PASS" starttime="20230329 22:32:51.713" endtime="20230329 22:32:51.713"/>
+<kw name="Initialize controller">
+<msg timestamp="20230330 00:13:16.833" level="FAIL">No keyword with name 'Initialize controller' found.</msg>
+<status status="FAIL" starttime="20230330 00:13:16.833" endtime="20230330 00:13:16.833"/>
 </kw>
-<kw name="Create Character With Name" library="GameControllerLibrary">
+<kw name="Create character with name">
 <arg>${providedCharacterName}</arg>
-<status status="PASS" starttime="20230329 22:32:51.713" endtime="20230329 22:32:51.713"/>
+<status status="NOT RUN" starttime="20230330 00:13:16.836" endtime="20230330 00:13:16.836"/>
 </kw>
-<kw name="Character Name Should Be" library="GameControllerLibrary">
+<kw name="Character name should be">
 <arg>${characterName}</arg>
-<status status="PASS" starttime="20230329 22:32:51.713" endtime="20230329 22:32:51.713"/>
+<status status="NOT RUN" starttime="20230330 00:13:16.837" endtime="20230330 00:13:16.837"/>
 </kw>
-<kw name="Number Of Map Positions Should Be" library="GameControllerLibrary">
+<kw name="Number of map positions should be">
 <arg>${numPositions}</arg>
-<status status="PASS" starttime="20230329 22:32:51.713" endtime="20230329 22:32:51.714"/>
+<status status="NOT RUN" starttime="20230330 00:13:16.843" endtime="20230330 00:13:16.843"/>
 </kw>
-<kw name="Starting X Coordinate Should Be" library="GameControllerLibrary">
+<kw name="Starting X coordinate should be">
 <arg>${startingPositionX}</arg>
-<status status="PASS" starttime="20230329 22:32:51.714" endtime="20230329 22:32:51.714"/>
+<status status="NOT RUN" starttime="20230330 00:13:16.844" endtime="20230330 00:13:16.844"/>
 </kw>
-<kw name="Starting Y Coordinate Should Be" library="GameControllerLibrary">
+<kw name="Starting Y coordinate should be">
 <arg>${startingPositionY}</arg>
-<status status="PASS" starttime="20230329 22:32:51.714" endtime="20230329 22:32:51.714"/>
+<status status="NOT RUN" starttime="20230330 00:13:16.846" endtime="20230330 00:13:16.846"/>
 </kw>
-<kw name="Starting Move Count Should Be" library="GameControllerLibrary">
+<kw name="Starting move count should be">
 <arg>${startingMoveCount}</arg>
-<status status="PASS" starttime="20230329 22:32:51.714" endtime="20230329 22:32:51.714"/>
+<status status="NOT RUN" starttime="20230330 00:13:16.847" endtime="20230330 00:13:16.847"/>
 </kw>
-<status status="PASS" starttime="20230329 22:32:51.712" endtime="20230329 22:32:51.714"/>
+<status status="FAIL" starttime="20230330 00:13:16.830" endtime="20230330 00:13:16.848"/>
 </kw>
-<status status="PASS" starttime="20230329 22:32:51.711" endtime="20230329 22:32:51.715"/>
+<status status="FAIL" starttime="20230330 00:13:16.830" endtime="20230330 00:13:16.849">No keyword with name 'Initialize controller' found.</status>
 </test>
 <doc>Test initialization of game.</doc>
-<status status="PASS" starttime="20230329 22:32:51.704" endtime="20230329 22:32:51.715"/>
+<status status="FAIL" starttime="20230330 00:13:16.827" endtime="20230330 00:13:16.849"/>
 </suite>
-<status status="PASS" starttime="20230329 22:32:51.685" endtime="20230329 22:32:51.716"/>
+<status status="FAIL" starttime="20230330 00:13:16.794" endtime="20230330 00:13:16.850"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Robot">Robot</stat>
-<stat pass="1" fail="0" skip="0" id="s1-s1" name="Start Game">Robot.Start Game</stat>
+<stat pass="0" fail="3" skip="0" id="s1" name="Robot">Robot</stat>
+<stat pass="0" fail="2" skip="0" id="s1-s1" name="Move">Robot.Move</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s2" name="Start Game">Robot.Start Game</stat>
 </suite>
 </statistics>
 <errors>
+<msg timestamp="20230330 00:13:16.822" level="ERROR">Error in file '/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot/move.robot' on line 4: Importing library '/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot/MoveLibrary.py' failed: NameError: name 'ARBITRARY_INVALID_INITIALIZED_POSITION' is not defined
+Traceback (most recent call last):
+  File "/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot/MoveLibrary.py", line 1, in &lt;module&gt;
+    from levelup.controller import GameController
+  File "/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/src/levelup/controller.py", line 9, in &lt;module&gt;
+    class GameStatus:
+  File "/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/src/levelup/controller.py", line 13, in GameStatus
+    current_position: tuple = ARBITRARY_INVALID_INITIALIZED_POSITION
+PYTHONPATH:
+  /home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot
+  /opt/hostedtoolcache/Python/3.10.10/x64/bin
+  /home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/src
+  /opt/hostedtoolcache/Python/3.10.10/x64/lib/python310.zip
+  /opt/hostedtoolcache/Python/3.10.10/x64/lib/python3.10
+  /opt/hostedtoolcache/Python/3.10.10/x64/lib/python3.10/lib-dynload
+  /opt/hostedtoolcache/Python/3.10.10/x64/lib/python3.10/site-packages</msg>
+<msg timestamp="20230330 00:13:16.829" level="ERROR">Error in file '/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot/start_game.robot' on line 4: Importing library '/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot/GameControllerLibrary.py' failed: NameError: name 'ARBITRARY_INVALID_INITIALIZED_POSITION' is not defined
+Traceback (most recent call last):
+  File "/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot/GameControllerLibrary.py", line 1, in &lt;module&gt;
+    from levelup.controller import GameController
+  File "/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/src/levelup/controller.py", line 9, in &lt;module&gt;
+    class GameStatus:
+  File "/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/src/levelup/controller.py", line 13, in GameStatus
+    current_position: tuple = ARBITRARY_INVALID_INITIALIZED_POSITION
+PYTHONPATH:
+  /home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot
+  /opt/hostedtoolcache/Python/3.10.10/x64/bin
+  /home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/src
+  /opt/hostedtoolcache/Python/3.10.10/x64/lib/python310.zip
+  /opt/hostedtoolcache/Python/3.10.10/x64/lib/python3.10
+  /opt/hostedtoolcache/Python/3.10.10/x64/lib/python3.10/lib-dynload
+  /opt/hostedtoolcache/Python/3.10.10/x64/lib/python3.10/site-packages</msg>
 </errors>
 </robot>
