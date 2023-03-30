@@ -1,6 +1,6 @@
 from unittest import TestCase
 from levelup.character import Character, InvalidMoveException, DEFAULT_CHARACTER_NAME
-from levelup.map import GameMap, FakeGameMap, Direction
+from levelup.map import GameMap, Direction
 from levelup.position import Position
 
 
