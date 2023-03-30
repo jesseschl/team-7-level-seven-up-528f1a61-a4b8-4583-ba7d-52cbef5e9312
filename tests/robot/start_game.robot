@@ -6,6 +6,8 @@ Library           GameControllerLibrary.py
 
 *** Test Cases ***      providedCharacterName      characterName      numPositions     startingPositionX    startingPositionY  startingMoveCount
 Blank character name    ${EMPTY}                   Character          100              0                    0                  0
+Valid character name    Jeffrey                    Jeffrey            100              0                    0                  0
+
 
 
 *** Keywords ***
