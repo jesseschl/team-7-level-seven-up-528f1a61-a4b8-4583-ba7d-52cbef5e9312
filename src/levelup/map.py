@@ -28,4 +28,13 @@ class GameMap:
     def calculate_position(
         self, starting_position: Position, direction: Direction
     ) -> Position:
+        # match direction:
+        #     case 'n':
+        #         return (self.position.coordinates[0], self.position.coordinates[1] - 1)
+        #     case 's':
+        #         return (self.position.coordinates[0], self.position.coordinates[1] + 1)
+        #     case 'e':
+        #         return (self.position.coordinates[0] + 1, self.position.coordinates[1])
+        #     case 'w':
+        #         return (self.position.coordinates[0] - 1, self.position.coordinates[1])
         pass
