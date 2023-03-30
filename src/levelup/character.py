@@ -13,8 +13,8 @@ class Character:
     map: GameMap = None
     position: Position = None
 
-    def __init__(self, name: str):
-        self.name = name or DEFAULT_CHARACTER_NAME
+    def __init__(self, name = DEFAULT_CHARACTER_NAME):
+        self.name = name
 
     def enter_map(self, game_map: GameMap):
         pass
