@@ -4,6 +4,8 @@ from levelup.map import GameMap, Direction
 from levelup.position import Position
 
 class FakeGameMap(GameMap):
+    starting_position: Position = Position(0, 0)
+
     def calculate_position(
         self, starting_position: Position, direction: Direction
     ) -> Position:
@@ -32,3 +34,10 @@ class TestCharacter(TestCase):
         expected_position = Position(4,4)
         test_char.move('s')
         self.assertEqual(test_char.position, expected_position)
+
+    def test_enter_map(self):
+        test_char = Character()
+        expected_position = Position(0,0)
+        test_char.enter_map(FakeGameMap())
+        self.assertEqual(test_char.position, expected_position)
+

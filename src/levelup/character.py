@@ -17,7 +17,8 @@ class Character:
         self.name = name
 
     def enter_map(self, game_map: GameMap):
-        pass
+        self.position = game_map.starting_position
+        
 
     def move(self, direction: Direction):
         self.position = self.map.calculate_position(self.position, direction)
