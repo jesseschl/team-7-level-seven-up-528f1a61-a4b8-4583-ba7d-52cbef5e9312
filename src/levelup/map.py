@@ -23,7 +23,9 @@ class GameMap:
         pass
 
     def is_valid_position(self, position: Position) -> bool:
-        pass
+        x, y = position.coordinates
+        if (x >= 0 and x <= 9) and (y >= 0 and y <= 9):
+            return True
 
     def calculate_position(
         self, starting_position: Position, direction: Direction
