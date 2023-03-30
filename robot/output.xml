@@ -1,50 +1,344 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0.1 (Python 3.10.10 on linux)" generated="20230330 16:26:58.291" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0.1 (Python 3.10.10 on linux)" generated="20230330 16:58:31.650" rpa="false" schemaversion="3">
 <suite id="s1" name="Robot" source="/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot">
 <suite id="s1-s1" name="Move" source="/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot/move.robot">
-<test id="s1-s1-t1" name="Valid Case #1" line="7">
+<test id="s1-s1-t1" name="Valid Case North" line="7">
+<kw name="Move character">
+<arg>4</arg>
+<arg>5</arg>
+<arg>1</arg>
+<arg>NORTH</arg>
+<arg>4</arg>
+<arg>4</arg>
+<arg>2</arg>
+<kw name="Initialize Character Xposition With" library="MoveLibrary">
+<arg>${startingX}</arg>
+<status status="PASS" starttime="20230330 16:58:31.690" endtime="20230330 16:58:31.690"/>
+</kw>
+<kw name="Initialize Character Yposition With" library="MoveLibrary">
+<arg>${startingY}</arg>
+<status status="PASS" starttime="20230330 16:58:31.690" endtime="20230330 16:58:31.691"/>
+</kw>
+<kw name="Initialize Character MoveCount With" library="MoveLibrary">
+<arg>${startingMoveCount}</arg>
+<status status="PASS" starttime="20230330 16:58:31.691" endtime="20230330 16:58:31.691"/>
+</kw>
+<kw name="Move In Direction" library="MoveLibrary">
+<arg>${direction}</arg>
+<status status="PASS" starttime="20230330 16:58:31.691" endtime="20230330 16:58:31.692"/>
+</kw>
+<kw name="Character Xposition Should Be" library="MoveLibrary">
+<arg>${endingX}</arg>
+<msg timestamp="20230330 16:58:31.692" level="FAIL">Not implemented</msg>
+<status status="FAIL" starttime="20230330 16:58:31.692" endtime="20230330 16:58:31.693"/>
+</kw>
+<kw name="Character Yposition Should Be" library="MoveLibrary">
+<arg>${endingY}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.693" endtime="20230330 16:58:31.693"/>
+</kw>
+<kw name="Character MoveCount Should Be" library="MoveLibrary">
+<arg>${endingMoveCount}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.693" endtime="20230330 16:58:31.693"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.689" endtime="20230330 16:58:31.694"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.688" endtime="20230330 16:58:31.694">Not implemented</status>
+</test>
+<test id="s1-s1-t2" name="Valid Case South" line="8">
+<kw name="Move character">
+<arg>5</arg>
+<arg>8</arg>
+<arg>33</arg>
+<arg>SOUTH</arg>
+<arg>5</arg>
+<arg>9</arg>
+<arg>34</arg>
+<kw name="Initialize Character Xposition With" library="MoveLibrary">
+<arg>${startingX}</arg>
+<status status="PASS" starttime="20230330 16:58:31.696" endtime="20230330 16:58:31.696"/>
+</kw>
+<kw name="Initialize Character Yposition With" library="MoveLibrary">
+<arg>${startingY}</arg>
+<status status="PASS" starttime="20230330 16:58:31.696" endtime="20230330 16:58:31.696"/>
+</kw>
+<kw name="Initialize Character MoveCount With" library="MoveLibrary">
+<arg>${startingMoveCount}</arg>
+<status status="PASS" starttime="20230330 16:58:31.697" endtime="20230330 16:58:31.697"/>
+</kw>
+<kw name="Move In Direction" library="MoveLibrary">
+<arg>${direction}</arg>
+<status status="PASS" starttime="20230330 16:58:31.697" endtime="20230330 16:58:31.697"/>
+</kw>
+<kw name="Character Xposition Should Be" library="MoveLibrary">
+<arg>${endingX}</arg>
+<msg timestamp="20230330 16:58:31.698" level="FAIL">Not implemented</msg>
+<status status="FAIL" starttime="20230330 16:58:31.697" endtime="20230330 16:58:31.698"/>
+</kw>
+<kw name="Character Yposition Should Be" library="MoveLibrary">
+<arg>${endingY}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.698" endtime="20230330 16:58:31.698"/>
+</kw>
+<kw name="Character MoveCount Should Be" library="MoveLibrary">
+<arg>${endingMoveCount}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.698" endtime="20230330 16:58:31.698"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.695" endtime="20230330 16:58:31.699"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.695" endtime="20230330 16:58:31.699">Not implemented</status>
+</test>
+<test id="s1-s1-t3" name="Valid Case East" line="9">
+<kw name="Move character">
+<arg>4</arg>
+<arg>5</arg>
+<arg>1</arg>
+<arg>EAST</arg>
+<arg>5</arg>
+<arg>5</arg>
+<arg>2</arg>
+<kw name="Initialize Character Xposition With" library="MoveLibrary">
+<arg>${startingX}</arg>
+<status status="PASS" starttime="20230330 16:58:31.701" endtime="20230330 16:58:31.701"/>
+</kw>
+<kw name="Initialize Character Yposition With" library="MoveLibrary">
+<arg>${startingY}</arg>
+<status status="PASS" starttime="20230330 16:58:31.701" endtime="20230330 16:58:31.701"/>
+</kw>
+<kw name="Initialize Character MoveCount With" library="MoveLibrary">
+<arg>${startingMoveCount}</arg>
+<status status="PASS" starttime="20230330 16:58:31.702" endtime="20230330 16:58:31.702"/>
+</kw>
+<kw name="Move In Direction" library="MoveLibrary">
+<arg>${direction}</arg>
+<status status="PASS" starttime="20230330 16:58:31.702" endtime="20230330 16:58:31.702"/>
+</kw>
+<kw name="Character Xposition Should Be" library="MoveLibrary">
+<arg>${endingX}</arg>
+<msg timestamp="20230330 16:58:31.703" level="FAIL">Not implemented</msg>
+<status status="FAIL" starttime="20230330 16:58:31.702" endtime="20230330 16:58:31.703"/>
+</kw>
+<kw name="Character Yposition Should Be" library="MoveLibrary">
+<arg>${endingY}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.703" endtime="20230330 16:58:31.703"/>
+</kw>
+<kw name="Character MoveCount Should Be" library="MoveLibrary">
+<arg>${endingMoveCount}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.703" endtime="20230330 16:58:31.703"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.700" endtime="20230330 16:58:31.704"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.700" endtime="20230330 16:58:31.704">Not implemented</status>
+</test>
+<test id="s1-s1-t4" name="Valid Case West" line="10">
+<kw name="Move character">
+<arg>5</arg>
+<arg>8</arg>
+<arg>22</arg>
+<arg>WEST</arg>
+<arg>4</arg>
+<arg>8</arg>
+<arg>23</arg>
+<kw name="Initialize Character Xposition With" library="MoveLibrary">
+<arg>${startingX}</arg>
+<status status="PASS" starttime="20230330 16:58:31.706" endtime="20230330 16:58:31.706"/>
+</kw>
+<kw name="Initialize Character Yposition With" library="MoveLibrary">
+<arg>${startingY}</arg>
+<status status="PASS" starttime="20230330 16:58:31.706" endtime="20230330 16:58:31.706"/>
+</kw>
+<kw name="Initialize Character MoveCount With" library="MoveLibrary">
+<arg>${startingMoveCount}</arg>
+<status status="PASS" starttime="20230330 16:58:31.707" endtime="20230330 16:58:31.707"/>
+</kw>
+<kw name="Move In Direction" library="MoveLibrary">
+<arg>${direction}</arg>
+<status status="PASS" starttime="20230330 16:58:31.707" endtime="20230330 16:58:31.707"/>
+</kw>
+<kw name="Character Xposition Should Be" library="MoveLibrary">
+<arg>${endingX}</arg>
+<msg timestamp="20230330 16:58:31.708" level="FAIL">Not implemented</msg>
+<status status="FAIL" starttime="20230330 16:58:31.707" endtime="20230330 16:58:31.708"/>
+</kw>
+<kw name="Character Yposition Should Be" library="MoveLibrary">
+<arg>${endingY}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.708" endtime="20230330 16:58:31.708"/>
+</kw>
+<kw name="Character MoveCount Should Be" library="MoveLibrary">
+<arg>${endingMoveCount}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.708" endtime="20230330 16:58:31.708"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.705" endtime="20230330 16:58:31.709"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.705" endtime="20230330 16:58:31.709">Not implemented</status>
+</test>
+<test id="s1-s1-t5" name="Valid Edge Case North" line="11">
+<kw name="Move character">
+<arg>9</arg>
+<arg>9</arg>
+<arg>1</arg>
+<arg>NORTH</arg>
+<arg>9</arg>
+<arg>8</arg>
+<arg>2</arg>
+<kw name="Initialize Character Xposition With" library="MoveLibrary">
+<arg>${startingX}</arg>
+<status status="PASS" starttime="20230330 16:58:31.711" endtime="20230330 16:58:31.711"/>
+</kw>
+<kw name="Initialize Character Yposition With" library="MoveLibrary">
+<arg>${startingY}</arg>
+<status status="PASS" starttime="20230330 16:58:31.711" endtime="20230330 16:58:31.712"/>
+</kw>
+<kw name="Initialize Character MoveCount With" library="MoveLibrary">
+<arg>${startingMoveCount}</arg>
+<status status="PASS" starttime="20230330 16:58:31.712" endtime="20230330 16:58:31.712"/>
+</kw>
+<kw name="Move In Direction" library="MoveLibrary">
+<arg>${direction}</arg>
+<status status="PASS" starttime="20230330 16:58:31.712" endtime="20230330 16:58:31.712"/>
+</kw>
+<kw name="Character Xposition Should Be" library="MoveLibrary">
+<arg>${endingX}</arg>
+<msg timestamp="20230330 16:58:31.713" level="FAIL">Not implemented</msg>
+<status status="FAIL" starttime="20230330 16:58:31.713" endtime="20230330 16:58:31.713"/>
+</kw>
+<kw name="Character Yposition Should Be" library="MoveLibrary">
+<arg>${endingY}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.714" endtime="20230330 16:58:31.714"/>
+</kw>
+<kw name="Character MoveCount Should Be" library="MoveLibrary">
+<arg>${endingMoveCount}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.714" endtime="20230330 16:58:31.714"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.710" endtime="20230330 16:58:31.714"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.710" endtime="20230330 16:58:31.715">Not implemented</status>
+</test>
+<test id="s1-s1-t6" name="Valid Edge Case South" line="12">
+<kw name="Move character">
+<arg>0</arg>
+<arg>0</arg>
+<arg>33</arg>
+<arg>SOUTH</arg>
+<arg>0</arg>
+<arg>1</arg>
+<arg>34</arg>
+<kw name="Initialize Character Xposition With" library="MoveLibrary">
+<arg>${startingX}</arg>
+<status status="PASS" starttime="20230330 16:58:31.717" endtime="20230330 16:58:31.717"/>
+</kw>
+<kw name="Initialize Character Yposition With" library="MoveLibrary">
+<arg>${startingY}</arg>
+<status status="PASS" starttime="20230330 16:58:31.717" endtime="20230330 16:58:31.718"/>
+</kw>
+<kw name="Initialize Character MoveCount With" library="MoveLibrary">
+<arg>${startingMoveCount}</arg>
+<status status="PASS" starttime="20230330 16:58:31.718" endtime="20230330 16:58:31.718"/>
+</kw>
+<kw name="Move In Direction" library="MoveLibrary">
+<arg>${direction}</arg>
+<status status="PASS" starttime="20230330 16:58:31.718" endtime="20230330 16:58:31.718"/>
+</kw>
+<kw name="Character Xposition Should Be" library="MoveLibrary">
+<arg>${endingX}</arg>
+<msg timestamp="20230330 16:58:31.719" level="FAIL">Not implemented</msg>
+<status status="FAIL" starttime="20230330 16:58:31.718" endtime="20230330 16:58:31.719"/>
+</kw>
+<kw name="Character Yposition Should Be" library="MoveLibrary">
+<arg>${endingY}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.719" endtime="20230330 16:58:31.719"/>
+</kw>
+<kw name="Character MoveCount Should Be" library="MoveLibrary">
+<arg>${endingMoveCount}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.720" endtime="20230330 16:58:31.720"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.716" endtime="20230330 16:58:31.720"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.716" endtime="20230330 16:58:31.721">Not implemented</status>
+</test>
+<test id="s1-s1-t7" name="Valid Edge Case East" line="13">
 <kw name="Move character">
 <arg>0</arg>
 <arg>0</arg>
 <arg>1</arg>
-<arg>NORTH</arg>
-<arg>0</arg>
+<arg>EAST</arg>
 <arg>1</arg>
+<arg>0</arg>
 <arg>2</arg>
 <kw name="Initialize Character Xposition With" library="MoveLibrary">
 <arg>${startingX}</arg>
-<status status="PASS" starttime="20230330 16:26:58.319" endtime="20230330 16:26:58.320"/>
+<status status="PASS" starttime="20230330 16:58:31.722" endtime="20230330 16:58:31.723"/>
 </kw>
 <kw name="Initialize Character Yposition With" library="MoveLibrary">
 <arg>${startingY}</arg>
-<status status="PASS" starttime="20230330 16:26:58.320" endtime="20230330 16:26:58.320"/>
+<status status="PASS" starttime="20230330 16:58:31.723" endtime="20230330 16:58:31.723"/>
 </kw>
 <kw name="Initialize Character MoveCount With" library="MoveLibrary">
 <arg>${startingMoveCount}</arg>
-<status status="PASS" starttime="20230330 16:26:58.320" endtime="20230330 16:26:58.320"/>
+<status status="PASS" starttime="20230330 16:58:31.723" endtime="20230330 16:58:31.723"/>
 </kw>
 <kw name="Move In Direction" library="MoveLibrary">
 <arg>${direction}</arg>
-<status status="PASS" starttime="20230330 16:26:58.320" endtime="20230330 16:26:58.320"/>
+<status status="PASS" starttime="20230330 16:58:31.724" endtime="20230330 16:58:31.724"/>
 </kw>
 <kw name="Character Xposition Should Be" library="MoveLibrary">
 <arg>${endingX}</arg>
-<msg timestamp="20230330 16:26:58.321" level="FAIL">Not implemented</msg>
-<status status="FAIL" starttime="20230330 16:26:58.321" endtime="20230330 16:26:58.321"/>
+<msg timestamp="20230330 16:58:31.724" level="FAIL">Not implemented</msg>
+<status status="FAIL" starttime="20230330 16:58:31.724" endtime="20230330 16:58:31.725"/>
 </kw>
 <kw name="Character Yposition Should Be" library="MoveLibrary">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20230330 16:26:58.322" endtime="20230330 16:26:58.322"/>
+<status status="NOT RUN" starttime="20230330 16:58:31.725" endtime="20230330 16:58:31.725"/>
 </kw>
 <kw name="Character MoveCount Should Be" library="MoveLibrary">
 <arg>${endingMoveCount}</arg>
-<status status="NOT RUN" starttime="20230330 16:26:58.322" endtime="20230330 16:26:58.322"/>
+<status status="NOT RUN" starttime="20230330 16:58:31.725" endtime="20230330 16:58:31.725"/>
 </kw>
-<status status="FAIL" starttime="20230330 16:26:58.319" endtime="20230330 16:26:58.322"/>
+<status status="FAIL" starttime="20230330 16:58:31.722" endtime="20230330 16:58:31.726"/>
 </kw>
-<status status="FAIL" starttime="20230330 16:26:58.318" endtime="20230330 16:26:58.323">Not implemented</status>
+<status status="FAIL" starttime="20230330 16:58:31.721" endtime="20230330 16:58:31.726">Not implemented</status>
 </test>
-<test id="s1-s1-t2" name="Invalid Case #2" line="8">
+<test id="s1-s1-t8" name="Valid Edge Case West" line="14">
+<kw name="Move character">
+<arg>9</arg>
+<arg>9</arg>
+<arg>22</arg>
+<arg>WEST</arg>
+<arg>8</arg>
+<arg>9</arg>
+<arg>23</arg>
+<kw name="Initialize Character Xposition With" library="MoveLibrary">
+<arg>${startingX}</arg>
+<status status="PASS" starttime="20230330 16:58:31.728" endtime="20230330 16:58:31.728"/>
+</kw>
+<kw name="Initialize Character Yposition With" library="MoveLibrary">
+<arg>${startingY}</arg>
+<status status="PASS" starttime="20230330 16:58:31.728" endtime="20230330 16:58:31.729"/>
+</kw>
+<kw name="Initialize Character MoveCount With" library="MoveLibrary">
+<arg>${startingMoveCount}</arg>
+<status status="PASS" starttime="20230330 16:58:31.729" endtime="20230330 16:58:31.729"/>
+</kw>
+<kw name="Move In Direction" library="MoveLibrary">
+<arg>${direction}</arg>
+<status status="PASS" starttime="20230330 16:58:31.729" endtime="20230330 16:58:31.729"/>
+</kw>
+<kw name="Character Xposition Should Be" library="MoveLibrary">
+<arg>${endingX}</arg>
+<msg timestamp="20230330 16:58:31.730" level="FAIL">Not implemented</msg>
+<status status="FAIL" starttime="20230330 16:58:31.729" endtime="20230330 16:58:31.730"/>
+</kw>
+<kw name="Character Yposition Should Be" library="MoveLibrary">
+<arg>${endingY}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.730" endtime="20230330 16:58:31.730"/>
+</kw>
+<kw name="Character MoveCount Should Be" library="MoveLibrary">
+<arg>${endingMoveCount}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.730" endtime="20230330 16:58:31.731"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.727" endtime="20230330 16:58:31.731"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.727" endtime="20230330 16:58:31.732">Not implemented</status>
+</test>
+<test id="s1-s1-t9" name="Invalid Edge Case North" line="15">
 <kw name="Move character">
 <arg>0</arg>
 <arg>0</arg>
@@ -55,39 +349,165 @@
 <arg>6</arg>
 <kw name="Initialize Character Xposition With" library="MoveLibrary">
 <arg>${startingX}</arg>
-<status status="PASS" starttime="20230330 16:26:58.324" endtime="20230330 16:26:58.324"/>
+<status status="PASS" starttime="20230330 16:58:31.734" endtime="20230330 16:58:31.734"/>
 </kw>
 <kw name="Initialize Character Yposition With" library="MoveLibrary">
 <arg>${startingY}</arg>
-<status status="PASS" starttime="20230330 16:26:58.324" endtime="20230330 16:26:58.324"/>
+<status status="PASS" starttime="20230330 16:58:31.734" endtime="20230330 16:58:31.734"/>
 </kw>
 <kw name="Initialize Character MoveCount With" library="MoveLibrary">
 <arg>${startingMoveCount}</arg>
-<status status="PASS" starttime="20230330 16:26:58.324" endtime="20230330 16:26:58.324"/>
+<status status="PASS" starttime="20230330 16:58:31.734" endtime="20230330 16:58:31.735"/>
 </kw>
 <kw name="Move In Direction" library="MoveLibrary">
 <arg>${direction}</arg>
-<status status="PASS" starttime="20230330 16:26:58.324" endtime="20230330 16:26:58.325"/>
+<status status="PASS" starttime="20230330 16:58:31.735" endtime="20230330 16:58:31.735"/>
 </kw>
 <kw name="Character Xposition Should Be" library="MoveLibrary">
 <arg>${endingX}</arg>
-<msg timestamp="20230330 16:26:58.325" level="FAIL">Not implemented</msg>
-<status status="FAIL" starttime="20230330 16:26:58.325" endtime="20230330 16:26:58.325"/>
+<msg timestamp="20230330 16:58:31.736" level="FAIL">Not implemented</msg>
+<status status="FAIL" starttime="20230330 16:58:31.735" endtime="20230330 16:58:31.736"/>
 </kw>
 <kw name="Character Yposition Should Be" library="MoveLibrary">
 <arg>${endingY}</arg>
-<status status="NOT RUN" starttime="20230330 16:26:58.325" endtime="20230330 16:26:58.325"/>
+<status status="NOT RUN" starttime="20230330 16:58:31.736" endtime="20230330 16:58:31.736"/>
 </kw>
 <kw name="Character MoveCount Should Be" library="MoveLibrary">
 <arg>${endingMoveCount}</arg>
-<status status="NOT RUN" starttime="20230330 16:26:58.326" endtime="20230330 16:26:58.326"/>
+<status status="NOT RUN" starttime="20230330 16:58:31.736" endtime="20230330 16:58:31.736"/>
 </kw>
-<status status="FAIL" starttime="20230330 16:26:58.323" endtime="20230330 16:26:58.326"/>
+<status status="FAIL" starttime="20230330 16:58:31.733" endtime="20230330 16:58:31.737"/>
 </kw>
-<status status="FAIL" starttime="20230330 16:26:58.323" endtime="20230330 16:26:58.326">Not implemented</status>
+<status status="FAIL" starttime="20230330 16:58:31.732" endtime="20230330 16:58:31.737">Not implemented</status>
+</test>
+<test id="s1-s1-t10" name="Invalid Edge Case South" line="16">
+<kw name="Move character">
+<arg>9</arg>
+<arg>9</arg>
+<arg>11</arg>
+<arg>NORTH</arg>
+<arg>9</arg>
+<arg>9</arg>
+<arg>12</arg>
+<kw name="Initialize Character Xposition With" library="MoveLibrary">
+<arg>${startingX}</arg>
+<status status="PASS" starttime="20230330 16:58:31.739" endtime="20230330 16:58:31.739"/>
+</kw>
+<kw name="Initialize Character Yposition With" library="MoveLibrary">
+<arg>${startingY}</arg>
+<status status="PASS" starttime="20230330 16:58:31.740" endtime="20230330 16:58:31.740"/>
+</kw>
+<kw name="Initialize Character MoveCount With" library="MoveLibrary">
+<arg>${startingMoveCount}</arg>
+<status status="PASS" starttime="20230330 16:58:31.740" endtime="20230330 16:58:31.740"/>
+</kw>
+<kw name="Move In Direction" library="MoveLibrary">
+<arg>${direction}</arg>
+<status status="PASS" starttime="20230330 16:58:31.740" endtime="20230330 16:58:31.740"/>
+</kw>
+<kw name="Character Xposition Should Be" library="MoveLibrary">
+<arg>${endingX}</arg>
+<msg timestamp="20230330 16:58:31.741" level="FAIL">Not implemented</msg>
+<status status="FAIL" starttime="20230330 16:58:31.741" endtime="20230330 16:58:31.741"/>
+</kw>
+<kw name="Character Yposition Should Be" library="MoveLibrary">
+<arg>${endingY}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.742" endtime="20230330 16:58:31.742"/>
+</kw>
+<kw name="Character MoveCount Should Be" library="MoveLibrary">
+<arg>${endingMoveCount}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.742" endtime="20230330 16:58:31.742"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.739" endtime="20230330 16:58:31.742"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.738" endtime="20230330 16:58:31.743">Not implemented</status>
+</test>
+<test id="s1-s1-t11" name="Invalid Edge Case East" line="17">
+<kw name="Move character">
+<arg>9</arg>
+<arg>9</arg>
+<arg>56</arg>
+<arg>EAST</arg>
+<arg>9</arg>
+<arg>9</arg>
+<arg>57</arg>
+<kw name="Initialize Character Xposition With" library="MoveLibrary">
+<arg>${startingX}</arg>
+<status status="PASS" starttime="20230330 16:58:31.745" endtime="20230330 16:58:31.745"/>
+</kw>
+<kw name="Initialize Character Yposition With" library="MoveLibrary">
+<arg>${startingY}</arg>
+<status status="PASS" starttime="20230330 16:58:31.745" endtime="20230330 16:58:31.745"/>
+</kw>
+<kw name="Initialize Character MoveCount With" library="MoveLibrary">
+<arg>${startingMoveCount}</arg>
+<status status="PASS" starttime="20230330 16:58:31.746" endtime="20230330 16:58:31.746"/>
+</kw>
+<kw name="Move In Direction" library="MoveLibrary">
+<arg>${direction}</arg>
+<status status="PASS" starttime="20230330 16:58:31.746" endtime="20230330 16:58:31.746"/>
+</kw>
+<kw name="Character Xposition Should Be" library="MoveLibrary">
+<arg>${endingX}</arg>
+<msg timestamp="20230330 16:58:31.747" level="FAIL">Not implemented</msg>
+<status status="FAIL" starttime="20230330 16:58:31.746" endtime="20230330 16:58:31.747"/>
+</kw>
+<kw name="Character Yposition Should Be" library="MoveLibrary">
+<arg>${endingY}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.747" endtime="20230330 16:58:31.747"/>
+</kw>
+<kw name="Character MoveCount Should Be" library="MoveLibrary">
+<arg>${endingMoveCount}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.747" endtime="20230330 16:58:31.748"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.744" endtime="20230330 16:58:31.748"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.743" endtime="20230330 16:58:31.748">Not implemented</status>
+</test>
+<test id="s1-s1-t12" name="Invalid Edge Case West" line="18">
+<kw name="Move character">
+<arg>0</arg>
+<arg>0</arg>
+<arg>14</arg>
+<arg>WEST</arg>
+<arg>0</arg>
+<arg>0</arg>
+<arg>15</arg>
+<kw name="Initialize Character Xposition With" library="MoveLibrary">
+<arg>${startingX}</arg>
+<status status="PASS" starttime="20230330 16:58:31.750" endtime="20230330 16:58:31.750"/>
+</kw>
+<kw name="Initialize Character Yposition With" library="MoveLibrary">
+<arg>${startingY}</arg>
+<status status="PASS" starttime="20230330 16:58:31.750" endtime="20230330 16:58:31.751"/>
+</kw>
+<kw name="Initialize Character MoveCount With" library="MoveLibrary">
+<arg>${startingMoveCount}</arg>
+<status status="PASS" starttime="20230330 16:58:31.751" endtime="20230330 16:58:31.751"/>
+</kw>
+<kw name="Move In Direction" library="MoveLibrary">
+<arg>${direction}</arg>
+<status status="PASS" starttime="20230330 16:58:31.751" endtime="20230330 16:58:31.751"/>
+</kw>
+<kw name="Character Xposition Should Be" library="MoveLibrary">
+<arg>${endingX}</arg>
+<msg timestamp="20230330 16:58:31.752" level="FAIL">Not implemented</msg>
+<status status="FAIL" starttime="20230330 16:58:31.752" endtime="20230330 16:58:31.752"/>
+</kw>
+<kw name="Character Yposition Should Be" library="MoveLibrary">
+<arg>${endingY}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.753" endtime="20230330 16:58:31.753"/>
+</kw>
+<kw name="Character MoveCount Should Be" library="MoveLibrary">
+<arg>${endingMoveCount}</arg>
+<status status="NOT RUN" starttime="20230330 16:58:31.753" endtime="20230330 16:58:31.753"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.749" endtime="20230330 16:58:31.753"/>
+</kw>
+<status status="FAIL" starttime="20230330 16:58:31.749" endtime="20230330 16:58:31.754">Not implemented</status>
 </test>
 <doc>I want to move my character. If they attempt to move past a boundary, the move results in no change in position.</doc>
-<status status="FAIL" starttime="20230330 16:26:58.311" endtime="20230330 16:26:58.327"/>
+<status status="FAIL" starttime="20230330 16:58:31.679" endtime="20230330 16:58:31.755"/>
 </suite>
 <suite id="s1-s2" name="Start Game" source="/home/runner/work/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/team-7-level-seven-up-528f1a61-a4b8-4583-ba7d-52cbef5e9312/tests/robot/start_game.robot">
 <test id="s1-s2-t1" name="Blank character name" line="8">
@@ -99,51 +519,51 @@
 <arg>0</arg>
 <arg>0</arg>
 <kw name="Initialize Controller" library="GameControllerLibrary">
-<status status="PASS" starttime="20230330 16:26:58.332" endtime="20230330 16:26:58.332"/>
+<status status="PASS" starttime="20230330 16:58:31.764" endtime="20230330 16:58:31.764"/>
 </kw>
 <kw name="Create Character With Name" library="GameControllerLibrary">
 <arg>${providedCharacterName}</arg>
-<status status="PASS" starttime="20230330 16:26:58.332" endtime="20230330 16:26:58.332"/>
+<status status="PASS" starttime="20230330 16:58:31.764" endtime="20230330 16:58:31.764"/>
 </kw>
 <kw name="Character Name Should Be" library="GameControllerLibrary">
 <arg>${characterName}</arg>
-<status status="PASS" starttime="20230330 16:26:58.332" endtime="20230330 16:26:58.333"/>
+<status status="PASS" starttime="20230330 16:58:31.764" endtime="20230330 16:58:31.764"/>
 </kw>
 <kw name="Number Of Map Positions Should Be" library="GameControllerLibrary">
 <arg>${numPositions}</arg>
-<msg timestamp="20230330 16:26:58.333" level="FAIL">Not implemented</msg>
-<status status="FAIL" starttime="20230330 16:26:58.333" endtime="20230330 16:26:58.333"/>
+<msg timestamp="20230330 16:58:31.765" level="FAIL">Not implemented</msg>
+<status status="FAIL" starttime="20230330 16:58:31.765" endtime="20230330 16:58:31.765"/>
 </kw>
 <kw name="Starting X Coordinate Should Be" library="GameControllerLibrary">
 <arg>${startingPositionX}</arg>
-<status status="NOT RUN" starttime="20230330 16:26:58.333" endtime="20230330 16:26:58.334"/>
+<status status="NOT RUN" starttime="20230330 16:58:31.766" endtime="20230330 16:58:31.766"/>
 </kw>
 <kw name="Starting Y Coordinate Should Be" library="GameControllerLibrary">
 <arg>${startingPositionY}</arg>
-<status status="NOT RUN" starttime="20230330 16:26:58.334" endtime="20230330 16:26:58.334"/>
+<status status="NOT RUN" starttime="20230330 16:58:31.766" endtime="20230330 16:58:31.766"/>
 </kw>
 <kw name="Starting Move Count Should Be" library="GameControllerLibrary">
 <arg>${startingMoveCount}</arg>
-<status status="NOT RUN" starttime="20230330 16:26:58.334" endtime="20230330 16:26:58.334"/>
+<status status="NOT RUN" starttime="20230330 16:58:31.766" endtime="20230330 16:58:31.766"/>
 </kw>
-<status status="FAIL" starttime="20230330 16:26:58.331" endtime="20230330 16:26:58.334"/>
+<status status="FAIL" starttime="20230330 16:58:31.762" endtime="20230330 16:58:31.767"/>
 </kw>
-<status status="FAIL" starttime="20230330 16:26:58.331" endtime="20230330 16:26:58.334">Not implemented</status>
+<status status="FAIL" starttime="20230330 16:58:31.761" endtime="20230330 16:58:31.767">Not implemented</status>
 </test>
 <doc>Test initialization of game.</doc>
-<status status="FAIL" starttime="20230330 16:26:58.327" endtime="20230330 16:26:58.335"/>
+<status status="FAIL" starttime="20230330 16:58:31.756" endtime="20230330 16:58:31.768"/>
 </suite>
-<status status="FAIL" starttime="20230330 16:26:58.292" endtime="20230330 16:26:58.335"/>
+<status status="FAIL" starttime="20230330 16:58:31.651" endtime="20230330 16:58:31.769"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="3" skip="0">All Tests</stat>
+<stat pass="0" fail="13" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="0" fail="3" skip="0" id="s1" name="Robot">Robot</stat>
-<stat pass="0" fail="2" skip="0" id="s1-s1" name="Move">Robot.Move</stat>
+<stat pass="0" fail="13" skip="0" id="s1" name="Robot">Robot</stat>
+<stat pass="0" fail="12" skip="0" id="s1-s1" name="Move">Robot.Move</stat>
 <stat pass="0" fail="1" skip="0" id="s1-s2" name="Start Game">Robot.Start Game</stat>
 </suite>
 </statistics>
