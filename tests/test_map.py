@@ -16,3 +16,11 @@ class TestMap(TestCase):
         testmap = GameMap()
         self.assertTrue(testmap.is_valid_position(Position(4,5)))
         
+    def test_is_invalid_position_x(self):
+        testmap = GameMap()
+        self.assertFalse(testmap.is_valid_position(Position(10,5)))
+
+    def test_is_invalid_position_y(self):
+        testmap = GameMap()
+        self.assertFalse(testmap.is_valid_position(Position(4,10)))
+        
