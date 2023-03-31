@@ -12,7 +12,7 @@ class TestMap(TestCase):
         testmap = GameMap()
         self.assertTrue(testmap.is_valid_position(Position(4,5)))
 
-    # def test_is_valid_position_y(self):
-    #     testmap = GameMap()
-    #     self.assertTrue(testmap.is_valid_position(Position(4,5)))
+    def test_is_valid_position_y(self):
+        testmap = GameMap()
+        self.assertTrue(testmap.is_valid_position(Position(4,5)))
         
